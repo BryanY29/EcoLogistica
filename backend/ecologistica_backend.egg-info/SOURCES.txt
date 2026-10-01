@@ -1,0 +1,8 @@
+pyproject.toml
+app/__init__.py
+app/main.py
+ecologistica_backend.egg-info/PKG-INFO
+ecologistica_backend.egg-info/SOURCES.txt
+ecologistica_backend.egg-info/dependency_links.txt
+ecologistica_backend.egg-info/requires.txt
+ecologistica_backend.egg-info/top_level.txt
