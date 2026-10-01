@@ -1,0 +1,12 @@
+# Registro de impedimentos
+
+**Nombre del Proyecto:** EcoLogística
+**Líder del Proyecto:** ZEVALLOS MELENDRES YIMER EDYSON
+
+[← Volver al README](../../README.md)
+
+| **Impedimento #** | **Fecha de Registro** | **Descripción del Impedimento así como el Impacto en el Proyecto**                                                                                                                                          | **Prioridad** | **Reportado por**    | **Fecha tope de Resolución** | **Estado** | **Fecha de Resolución** | **Resolución/Comentarios**                                                                                           |
+| :---------------- | :-------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :------------ | :------------------- | :--------------------------- | :--------- | :---------------------- | :------------------------------------------------------------------------------------------------------------------- |
+| IMP-001           | 24/09/2026            | Problemas de conexión durante la instalación de OpenSpec mediante npm (`ECONNRESET`), lo que retrasó temporalmente la configuración de las herramientas de especificación.                                  | Media         | Equipo de desarrollo | 24/09/2026                   | Resuelto   | 24/09/2026              | Se verificó un registro alternativo de npm y se continuó con la instalación y configuración de OpenSpec.             |
+| IMP-002           | 30/09/2026            | Docker/WSL presentó dificultades iniciales para ejecutar correctamente los servicios necesarios para la base de datos PostgreSQL. Esto retrasó temporalmente la puesta en marcha del entorno de desarrollo. | Alta          | Equipo de desarrollo | 01/10/2026                   | Resuelto   | 01/10/2026              | Se completó la configuración de WSL y Docker Desktop, permitiendo ejecutar PostgreSQL mediante Docker Compose.       |
+| IMP-003           | 01/10/2026            | El puerto 8000 utilizado por FastAPI se encontraba ocupado al intentar iniciar el servidor, impidiendo temporalmente levantar una nueva instancia del backend.                                              | Media         | Equipo de desarrollo | 01/10/2026                   | Resuelto   | 01/10/2026              | Se identificó el conflicto de puerto y se gestionó la ejecución del servidor FastAPI para continuar con las pruebas. |
